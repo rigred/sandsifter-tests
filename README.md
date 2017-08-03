@@ -1,6 +1,13 @@
 # sandsifter-tests
 A repository of result for runs of sandsifter on various x86 CPU's
 
+## Pull Requests with your logs welcome!
+
+Make sure your submissions are compressed with
+```
+tar c log | xz -9 > brand_model-modelnumber.tar.xz
+```
+
 ### Test command:
 ```
 ./sifter.py --unk --dis --len --sync --tick -- -P1 -t

@@ -5,7 +5,7 @@ A repository of result for runs of sandsifter on various x86 CPU's
 
 Make sure your submissions are compressed with
 ```
-tar c log | xz -9 > brand_model-modelnumber.tar.xz
+tar c data/log | xz -9 > brand_model-modelnumber.tar.xz
 ```
 
 ### Test command:

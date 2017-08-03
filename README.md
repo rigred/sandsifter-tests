@@ -7,6 +7,10 @@ Make sure your submissions are compressed with
 ```
 tar c data/log | xz -9 > brand_model-modelnumber.tar.xz
 ```
+## Source code with fixes
+
+https://github.com/rigred/sandsifter
+
 
 ### Test command:
 ```

@@ -50,7 +50,7 @@ https://github.com/rigred/sandsifter
     * i5-3450
 * Core i7
     * i7-3740QM
-    * i7-4700MQ (https://github.com/Lewiscowles1986)[Lewiscowles1986]
+    * i7-4700MQ [Lewiscowles1986](https://github.com/Lewiscowles1986)
     * i7-4770
 
 #### HEDT

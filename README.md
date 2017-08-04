@@ -43,13 +43,14 @@ https://github.com/rigred/sandsifter
     * Core 2 Quad Q8200
     * Core 2 Quad Q9400
 
-#### Socket 988/1150/1151/1155
+#### Socket 946/988/1150/1151/1155
 * Core i5
     * i5-2500
     * i5-3220M
     * i5-3450
 * Core i7
     * i7-3740QM
+    * i7-4700MQ (Lewiscowles1986)[https://github.com/Lewiscowles1986]
     * i7-4770
 
 #### HEDT

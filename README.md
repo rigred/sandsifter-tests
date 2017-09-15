@@ -40,8 +40,8 @@ https://github.com/rigred/sandsifter
     
 ## Credits for CPU test submissions to:
 
-[Lewiscowles1986](https://github.com/Lewiscowles1986)
-[jotebe](https://github.com/jotebe)
+* [Lewiscowles1986](https://github.com/Lewiscowles1986)
+* [jotebe](https://github.com/jotebe)
 
 More CPU tests incoming soon.
 

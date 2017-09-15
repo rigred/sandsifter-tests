@@ -24,37 +24,25 @@ https://github.com/rigred/sandsifter
 
 ### AMD
 
-* AM4
-    1. R7 1700x
+* Zen
+    * [R7 1700x](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/ryzen-1700x.tar.xz) *dirty data as of now
 
-### Intel (To Add)
+### Intel
 
-#### Socket 775
-* Celeron
-    * Celeron 330
-* Pentium 4
-    * Pentium 631
-    * Pentium 530/531
-* Core 2 Duo
-    * E8500
-    * E7500
-    * E5700
-* Core 2 Quad
-    * Core 2 Quad Q8200
-    * Core 2 Quad Q9400
+* Penryn
+    * [Core2Duo P8400](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core2duo-P8400.tar.xz)
 
-#### Socket 946/988/1150/1151/1155
-* Core i5
-    * i5-2500
-    * i5-3220M
-    * i5-3450
-* Core i7
-    * i7-3740QM
-    * i7-4700MQ [Lewiscowles1986](https://github.com/Lewiscowles1986)
-    * i7-4770
+* Haswell
+    * [i3-4130T](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-4130T.tar.xz) 
+    * [i7-4700MQ](https://github.com/rigred/sandsifter-tests/blob/master/intel/i7-4700mq.tar.xz)
+    * [E3-1225 v3](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1225-v3.tar.xz)
 
-#### HEDT
+    
+## Credits for CPU test submissions to:
 
-#### Xeon
+[Lewiscowles1986](https://github.com/Lewiscowles1986)
+[jotebe](https://github.com/jotebe)
 
-### Opteron
+More CPU tests incoming soon.
+
+Submissions always welcome!

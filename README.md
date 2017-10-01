@@ -39,12 +39,15 @@ https://github.com/rigred/sandsifter
     * [i3-4130T](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-4130T.tar.xz) 
     * [i7-4700MQ](https://github.com/rigred/sandsifter-tests/blob/master/intel/i7-4700mq.tar.xz)
     * [E3-1225 v3](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1225-v3.tar.xz) Test performed in a Ubuntu VM on an ESXI host
+* Devil's Canyon
+    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/i7-4790k.tar.xz)
 
     
 ## Credits for CPU test submissions to:
 
 * [Lewiscowles1986](https://github.com/Lewiscowles1986)
 * [jotebe](https://github.com/jotebe)
+* [killerkalamari](https://github.com/killerkalamari)
 
 More CPU tests incoming soon.
 

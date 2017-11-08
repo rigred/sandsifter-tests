@@ -18,7 +18,9 @@ https://github.com/rigred/sandsifter
 ```
 
 ### Compression
-> Log data is compressed With xz -9 and will uncompress to ~1.4Gb
+> Log data is compressed With xz -9 and will uncompress to a good bit larger size
+Special attention is needed with the Ryzen CPU test data. The dump files for those are near 1.4Gb total when uncompressed. 
+Running this through the analysis tool will consume a substantial amount of RAM.
 
 ## CPU's tested:
 
@@ -26,6 +28,7 @@ https://github.com/rigred/sandsifter
 
 * Zen
     * [R7 1700x](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/ryzen-1700x.tar.xz) *dirty data as of now
+    * [R7 1700](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/amd_ryzen-1700.tar.xz) *also 1.4Gb Uncompressed - beware
 
 ### Intel
 

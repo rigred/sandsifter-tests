@@ -41,6 +41,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [Core2Duo P8400](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core2duo-P8400.tar.xz)
 
 * Sandy Bridge
+    * [Pentium B970](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-B970.tar.xz) //Incomplete Data. Retesting required.
     * [Core i5-2540M](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2540M.tar.xz)
 
 * Ivy Bridge
@@ -60,5 +61,6 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 * [jotebe](https://github.com/jotebe)
 * [killerkalamari](https://github.com/killerkalamari)
 * [helospark](https://github.com/helospark)
+* [Maxzor](https://github.com/Maxzor)
 
 Submissions always welcome!

@@ -3,6 +3,9 @@ A repository of result for runs of sandsifter on various x86 CPU's
 
 ## Pull Requests with your logs welcome!
 
+### Note I have recently broken and had to repair the GIT Repo commit history. If you have a fork, please forcefully update those. 
+I do apologize.
+
 Make sure your submissions are compressed with
 ```
 tar c data/log | xz -9 > brand_model-modelnumber.tar.xz
@@ -27,8 +30,10 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 ### AMD
 
 * Zen
-    * [R7 1700x](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/ryzen-1700x.tar.xz) *dirty data as of now
-    * [R7 1700](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/amd_ryzen-1700.tar.xz) *also 1.4Gb Uncompressed - beware
+    * [R7 1700x](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/ryzen-1700x.tar.xz)
+    * [R7 1700](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/amd_ryzen-1700.tar.xz)
+
+    > *Warning:* The Zen CPU logs are LARGE. Processing these with the summarizer requires a substantial amount of RAM and CPU time.
 
 ### Intel
 
@@ -37,6 +42,9 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 
 * Sandy Bridge
     * [Core i5-2540M](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2540M.tar.xz)
+
+* Ivy Bridge
+    * [Core i3-3120](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-3120M.tar.xz)
     
 * Haswell
     * [i3-4130T](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-4130T.tar.xz) 
@@ -51,7 +59,6 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 * [Lewiscowles1986](https://github.com/Lewiscowles1986)
 * [jotebe](https://github.com/jotebe)
 * [killerkalamari](https://github.com/killerkalamari)
-
-More CPU tests incoming soon.
+* [helospark](https://github.com/helospark)
 
 Submissions always welcome!

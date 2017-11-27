@@ -3,9 +3,6 @@ A repository of result for runs of sandsifter on various x86 CPU's
 
 ## Pull Requests with your logs welcome!
 
-### Note I have recently broken and had to repair the GIT Repo commit history. If you have a fork, please forcefully update those. 
-I do apologize.
-
 Make sure your submissions are compressed with
 ```
 tar c data/log | xz -9 > brand_model-modelnumber.tar.xz
@@ -36,6 +33,9 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     > *Warning:* The Zen CPU logs are LARGE. Processing these with the summarizer requires a substantial amount of RAM and CPU time.
 
 ### Intel
+
+* Prescott
+    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium_4-630.tar.xz)
 
 * Penryn
     * [Core2Duo P8400](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core2duo-P8400.tar.xz)

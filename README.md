@@ -45,7 +45,8 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [Core i5-2540M](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2540M.tar.xz)
 
 * Ivy Bridge
-    * [Core i3-3120](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-3120M.tar.xz)
+    * [Core i3-3120m](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-3120M.tar.xz)
+    * [Core i5-3210m](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-3210m.tar.xz)
     
 * Haswell
     * [i3-4130T](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-4130T.tar.xz) 

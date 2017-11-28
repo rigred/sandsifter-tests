@@ -13,6 +13,13 @@ https://github.com/rigred/sandsifter
 
 
 ### Test command:
+
+Be sure your terminal has xterm colors set and is as large as you can make it. 80x40 should suffice.
+```
+export TERM='xterm-256color'
+```
+
+Then run the test with the following command
 ```
 ./sifter.py --unk --dis --len --sync --tick -- -P1 -t
 ```

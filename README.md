@@ -1,6 +1,13 @@
 # sandsifter-tests
 A repository of result for runs of sandsifter on various x86 CPU's
 
+## Alert
+Due to a recently found fault in the way the injector was compiled all but two test results stopped prematurely at the below instructions:
+ * 660f1fff
+ * 660f8fff000000
+
+> This primarily affected Intel CPU's - this means that all Intel CPU submissions would have to be retested. The old results can be found in the invalid_tests branch.
+
 ## Pull Requests with your logs welcome!
 
 Make sure your submissions are compressed with

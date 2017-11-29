@@ -56,6 +56,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 
 * Sandy Bridge
     * [Pentium B970](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-B970.tar.xz) //Complete
+    * [Core i5-2500](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2500.tar.xz) //Complete
     * [Core i5-2540M](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2540M.tar.xz) //Needs Retest
 
 * Ivy Bridge

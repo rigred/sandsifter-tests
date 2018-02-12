@@ -58,7 +58,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-4-630.tar.xz)
     
 * Kentsfield
-    * [Core2Quad Q6600](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core_2_quad_Q6600.tar.xz)
+    * [Core2Quad Q6600](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core-2-quad-Q6600.tar.xz)
 
 * Sandy Bridge
     * [Pentium B970](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-B970.tar.xz)
@@ -72,7 +72,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [E3-1225 v3](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1225-v3.tar.xz) Ubuntu VM on an ESXI host
 
 * Devil's Canyon
-    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i7_4790K.tar.xz)
+    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i7-4790K.tar.xz)
     
 * Kaby Lake
     * [Xeon E3-1505M v6](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1505M-v6.tar.xz)

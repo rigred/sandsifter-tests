@@ -46,7 +46,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [R7 1700x](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/ryzen-1700x.tar.xz)
     * [R7 1700](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/amd_ryzen-1700.tar.xz)
 
-    ### *Warning:* The Zen CPU logs are LARGE. 
+    *Warning:* The Zen CPU logs are ***LARGE***. 
     > Processing these with the summarizer requires a substantial amount of RAM and CPU time.
 
 ### Intel
@@ -55,7 +55,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [Intel Celeron M 390](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_celeron-M-390.tar.xz)
 
 * Prescott
-    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium_4-630.tar.xz)
+    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium4-630.tar.xz)
     
 * Kentsfield
     * [Core2Quad Q6600](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core_2_quad_Q6600.tar.xz)

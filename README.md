@@ -55,7 +55,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [Intel Celeron M 390](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_celeron-M-390.tar.xz)
 
 * Prescott
-    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium4-630.tar.xz)
+    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-4-630.tar.xz)
     
 * Kentsfield
     * [Core2Quad Q6600](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core_2_quad_Q6600.tar.xz)
@@ -72,10 +72,10 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [E3-1225 v3](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1225-v3.tar.xz) Ubuntu VM on an ESXI host
 
 * Devil's Canyon
-    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core_i7_4790K.tar.xz)
+    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i7_4790K.tar.xz)
     
 * Kaby Lake
-    * [Xeon E3-1505M v6](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E31505Mv6.tar.xz)
+    * [Xeon E3-1505M v6](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1505M-v6.tar.xz)
 
     
 ## Credits for CPU test submissions to:

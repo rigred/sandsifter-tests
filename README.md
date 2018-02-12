@@ -16,6 +16,14 @@ Make sure your submissions are compressed with
 ```
 tar c data/log | xz -9 > brand_model-modelnumber.tar.xz
 ```
+
+Rename files to match the following standard pattern:
+
+    `{vendor}_{type}-{model}.tar.xz`
+    
+    Complex type names should use `-` dashes to separate words.
+    Underscore should only be used once after the vendor prefix.
+
 ## Source code with fixes
 
 https://github.com/rigred/sandsifter

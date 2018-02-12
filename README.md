@@ -42,35 +42,43 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 
 ### AMD
 
-* Zen
+* Zen (Summit Ridge)
     * [R7 1700x](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/ryzen-1700x.tar.xz)
     * [R7 1700](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/amd_ryzen-1700.tar.xz)
 
-    > *Warning:* The Zen CPU logs are LARGE. Processing these with the summarizer requires a substantial amount of RAM and CPU time.
+    > *Warning:* The Zen CPU logs are LARGE. 
+    > Processing these with the summarizer requires a substantial amount of RAM and CPU time.
 
 ### Intel
 
 * Prescott
-    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium_4-630.tar.xz) //Needs Retest
+    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium_4-630.tar.xz)
 
 * Penryn
     * [Core2Duo P8400](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core2duo-P8400.tar.xz) //Needs Retest
+    
+* Kentsfield
+    * [Core2Quad Q6600](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core_2_quad_Q6600.tar.xz)
 
 * Sandy Bridge
-    * [Pentium B970](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-B970.tar.xz) //Complete
-    * [Core i5-2500](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2500.tar.xz) //Complete
+    * [Pentium B970](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-B970.tar.xz)
+    * [Core i5-2500](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2500.tar.xz)
     * [Core i5-2540M](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2540M.tar.xz) //Needs Retest
 
 * Ivy Bridge
-    * [Core i3-3120m](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-3120M.tar.xz) //Complete
+    * [Core i3-3120m](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-3120M.tar.xz)
     * [Core i5-3210m](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-3210m.tar.xz) //Needs Retest
     
 * Haswell
     * [i3-4130T](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-4130T.tar.xz)  //Needs Retest
     * [i7-4700MQ](https://github.com/rigred/sandsifter-tests/blob/master/intel/i7-4700mq.tar.xz) //Needs Retest
     * [E3-1225 v3](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1225-v3.tar.xz) Test performed in a Ubuntu VM on an ESXI host //Retest
+
 * Devil's Canyon
-    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/i7-4790k.tar.xz) //Needs Retest
+    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core_i7_4790K.tar.xz)
+    
+* Kaby Lake
+    * [Xeon E3-1505M v6](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E31505Mv6.tar.xz)
 
     
 ## Credits for CPU test submissions to:
@@ -80,5 +88,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 * [killerkalamari](https://github.com/killerkalamari)
 * [helospark](https://github.com/helospark)
 * [Maxzor](https://github.com/Maxzor)
+* [Terraflux](https://github.com/Terraflux)
+* [wouterwashere](https://github.com/wouterwashere)
 
 Submissions always welcome!

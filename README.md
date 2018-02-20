@@ -65,6 +65,10 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 * Prescott
     * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-4-630.tar.xz)
     
+* Conroe
+    * [Intel Celeron 430](intel/intel_celeron-430.tar.xz)
+    * [Intel Core 2 Duo E6300](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core-2-duo-e6300.tar.xz)
+    
 * Kentsfield
     * [Core2Quad Q6600](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core-2-quad-Q6600.tar.xz)
 
@@ -77,6 +81,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [Core i3-3120m](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-3120M.tar.xz)
     
 * Haswell
+    * [Core i7-4702MQ](intel/intel_i7-4702MQ.tar.xz)
     * [E3-1225 v3](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1225-v3.tar.xz) Ubuntu VM on an ESXI host
 
 * Devil's Canyon
@@ -86,7 +91,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [Xeon E3-1505M v6](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1505M-v6.tar.xz)
 
     
-## Credits for CPU test submissions to:
+## [Credits for CPU test submissions to:](CONTRIBUTORS.md)
 
 * [Lewiscowles1986](https://github.com/Lewiscowles1986)
 * [jotebe](https://github.com/jotebe)

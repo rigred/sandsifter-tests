@@ -51,8 +51,8 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 ### AMD
 
 * Zen (Summit Ridge)
-    * [R7 1700x](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/ryzen-1700x.tar.xz)
-    * [R7 1700](https://github.com/rigred/sandsifter-tests/blob/master/amd/Zen/amd_ryzen-1700.tar.xz)
+    * [R7 1700x](amd/Zen/ryzen-1700x.tar.xz)
+    * [R7 1700](amd/Zen/amd_ryzen-1700.tar.xz)
 
     *Warning:* The Zen CPU logs are ***LARGE***. 
     > Processing these with the summarizer requires a substantial amount of RAM and CPU time.
@@ -60,35 +60,35 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 ### Intel
 
 * Dothan
-    * [Intel Celeron M 390](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_celeron-M-390.tar.xz)
+    * [Intel Celeron M 390](intel/intel_celeron-M-390.tar.xz)
 
 * Prescott
-    * [Intel Pentium 4 630](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-4-630.tar.xz)
+    * [Intel Pentium 4 630](intel/intel_pentium-4-630.tar.xz)
     
 * Conroe
     * [Intel Celeron 430](intel/intel_celeron-430.tar.xz)
-    * [Intel Core 2 Duo E6300](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core-2-duo-e6300.tar.xz)
+    * [Intel Core 2 Duo E6300](intel/intel_core-2-duo-e6300.tar.xz)
     
 * Kentsfield
-    * [Core2Quad Q6600](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_core-2-quad-Q6600.tar.xz)
+    * [Core2Quad Q6600](intel/intel_core-2-quad-Q6600.tar.xz)
 
 * Sandy Bridge
-    * [Pentium B970](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_pentium-B970.tar.xz)
-    * [Core i5-2500](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2500.tar.xz)
-    * [Core i5-2540M](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i5-2540M.tar.xz)
+    * [Pentium B970](intel/intel_pentium-B970.tar.xz)
+    * [Core i5-2500](intel/intel_i5-2500.tar.xz)
+    * [Core i5-2540M](intel/intel_i5-2540M.tar.xz)
 
 * Ivy Bridge
-    * [Core i3-3120m](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i3-3120M.tar.xz)
+    * [Core i3-3120m](intel/intel_i3-3120M.tar.xz)
     
 * Haswell
     * [Core i7-4702MQ](intel/intel_i7-4702MQ.tar.xz)
-    * [E3-1225 v3](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1225-v3.tar.xz) Ubuntu VM on an ESXI host
+    * [E3-1225 v3](intel/intel_xeon-E3-1225-v3.tar.xz) Ubuntu VM on an ESXI host
 
 * Devil's Canyon
-    * [i7-4790k](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_i7-4790K.tar.xz)
+    * [i7-4790k](intel/intel_i7-4790K.tar.xz)
     
 * Kaby Lake
-    * [Xeon E3-1505M v6](https://github.com/rigred/sandsifter-tests/blob/master/intel/intel_xeon-E3-1505M-v6.tar.xz)
+    * [Xeon E3-1505M v6](intel/intel_xeon-E3-1505M-v6.tar.xz)
 
     
 ## [Credits for CPU test submissions to:](CONTRIBUTORS.md)

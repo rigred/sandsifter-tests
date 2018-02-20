@@ -51,8 +51,11 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 ### AMD
 
 * Zen (Summit Ridge)
-    * [R7 1700x](amd/Zen/ryzen-1700x.tar.xz)
-    * [R7 1700](amd/Zen/amd_ryzen-1700.tar.xz)
+    ## Microcode 1129
+    * [R7 1700x](amd/amd_ryzen-1700x-uc1129.tar.xz)
+    * [R7 1700](amd/amd_ryzen-1700-uc1129.tar.xz)
+    ## Microcode 1126
+    * [R7 1700x](amd_ryzen-1700x-uc1126.tar.xz)
 
     *Warning:* The Zen CPU logs are ***LARGE***. 
     > Processing these with the summarizer requires a substantial amount of RAM and CPU time.

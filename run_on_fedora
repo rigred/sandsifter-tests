@@ -1,7 +1,7 @@
 #!/bin/bash
 # Preparing your system
 sudo dnf install gcc glibc-static -y # Install gcc compiler and glibc-static
-pip install capstone --user # Install capstone for Python
+sudo pip install capstone # Install capstone for Python
 
 # Download Capstone
 wget https://github.com/aquynh/capstone/archive/master.zip # Download Capstone

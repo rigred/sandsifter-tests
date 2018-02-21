@@ -1,0 +1,39 @@
+#!/bin/bash
+# Preparing your system
+sudo dnf install gcc glibc-static -y
+pip install capstone --user
+
+# Download Capstone
+wget https://github.com/aquynh/capstone/archive/master.zip
+unzip master.zip
+rm master.zip
+
+# Download Sandsifter
+wget https://github.com/rigred/sandsifter/archive/master.zip
+unzip master.zip
+rm master.zip
+z
+# Compile Capstone
+cd capstone-master
+sed -i -e 's/CAPSTONE_ARCHS ?= arm aarch64 mips powerpc sparc systemz x86 xcore/CAPSTONE_ARCHS ?= x86/g' config.mk
+./make.sh
+sudo ./make.sh install
+
+# Compile Sandsifter
+cd ..
+cd sandsifter-master
+make
+
+# Remove Capstone
+cd ..
+cd capstone-master
+sudo ./make.sh uninstall
+cd ..
+rm -rf capstone-master
+
+# Run Sandsifter
+cd sandsifter-master
+export TERM='xterm-256color'
+sudo ausearch -c 'injector' --raw | audit2allow -M my-injector
+sudo semodule -X 300 -i my-injector.pp
+sudo ./sifter.py --unk --dis --len --sync --tick -- -P1 -t

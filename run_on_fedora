@@ -34,6 +34,5 @@ rm -rf capstone-master # Remove Capstone directory. It was only needed to be abl
 # Run Sandsifter
 cd sandsifter-master
 export TERM='xterm-256color' # Change terminal to be able to show Sandsifter correctly
-sudo ausearch -c 'injector' --raw | audit2allow -M my-injector # If SELinux installed, you have to grant access to Sandsifter
-sudo semodule -X 300 -i my-injector.pp # If SELinux installed, you have to grant access to Sandsifter
+sudo setsebool -P mmap_low_allowed 1 # If SELinux installed, you have to grant access to Sandsifter
 sudo ./sifter.py --unk --dis --len --sync --tick -- -P1 -t # Run Sandsifter

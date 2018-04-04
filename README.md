@@ -105,5 +105,6 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 * [Maxzor](https://github.com/Maxzor)
 * [Terraflux](https://github.com/Terraflux)
 * [wouterwashere](https://github.com/wouterwashere)
+* [Ennis Massey](https://github.com/MicroTransactionsMatterToo)
 
 Submissions always welcome!

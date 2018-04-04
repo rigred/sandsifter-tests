@@ -86,11 +86,13 @@ Running this through the analysis tool will consume a substantial amount of RAM.
 * Haswell
     * [Core i7-4702MQ](intel/intel_i7-4702MQ.tar.xz)
     * [E3-1225 v3](intel/intel_xeon-E3-1225-v3.tar.xz) Ubuntu VM on an ESXI host
+    * [Core i7-4558U](intel/intel_i7-4558U.tar.xz) (MacBook Pro Mid-2013) test results, obtained via Arch on Virtual Box.
 
 * Devil's Canyon
     * [i7-4790k](intel/intel_i7-4790K.tar.xz)
     
 * Kaby Lake
+    * [ore i7-7700K](intel/intel_i7-7700K.tar.xz)
     * [Xeon E3-1505M v6](intel/intel_xeon-E3-1505M-v6.tar.xz)
 
     

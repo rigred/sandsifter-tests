@@ -1,14 +1,29 @@
 # sandsifter-tests
 A repository of result for runs of sandsifter on various x86 CPU's
 
-## Alert
-Due to a recently found fault in the way the injector was compiled all but two test results stopped prematurely at the below instructions:
- * 660f1fff
- * 660f8fff000000
 
-In particular `660fa4c412f900000000000000000000` is what triggered an eventual segfault. I have not yet looked into the full details.
 
-> This primarily affected Intel CPU's - this means that all Intel CPU submissions would have to be retested. The old results can be found in the invalid_tests branch.
+## Run Sandsifter
+
+To run sandsifter you will need to compile the source code.
+To do this you will have to obtain & install the following:
+
+* Python 2
+* Standard C build tools
+* Capstone disassembler
+
+Instructions vary for every distribution so it is left up to the readers ability.
+
+A general guide for Fedora can be found here:
+
+1. [Fedora build instructions](doc/fedora_test_instructions.md)
+
+
+## Sandsifter source code with fixes
+
+https://github.com/rigred/sandsifter
+
+
 
 ## Pull Requests with your logs welcome!
 
@@ -24,9 +39,6 @@ Rename files to match the following standard pattern:
     Complex type names should use `-` dashes to separate words.
     Underscore should only be used once after the vendor prefix.
 
-## Source code with fixes
-
-https://github.com/rigred/sandsifter
 
 
 ### Test command:
@@ -92,7 +104,7 @@ Running this through the analysis tool will consume a substantial amount of RAM.
     * [i7-4790k](intel/intel_i7-4790K.tar.xz)
     
 * Kaby Lake
-    * [ore i7-7700K](intel/intel_i7-7700K.tar.xz)
+    * [Core i7-7700K](intel/intel_i7-7700K.tar.xz)
     * [Xeon E3-1505M v6](intel/intel_xeon-E3-1505M-v6.tar.xz)
 
     
